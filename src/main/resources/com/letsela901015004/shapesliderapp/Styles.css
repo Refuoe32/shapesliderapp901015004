@@ -1,0 +1,59 @@
+#canvas {
+    -fx-background-color: skyblue; /* Set as default background color to skyblue before changing */
+}
+
+.pane {
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-background-radius: 30px;
+}
+
+.shape {
+    -fx-cursor: hand;
+}
+
+.shape:hover {
+    -fx-border-color: #333;
+    -fx-border-width: 2px;
+}
+
+.heading {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-text-alignment:center;
+    -fx-padding: 1px 0;
+    -fx-background-color:gray;
+    -fx-background-radius: 20px;
+    -fx-text-fill: white;
+}
+
+.shape-selection-box {
+    -fx-alignment: center;
+    -fx-padding: 10px;
+}
+
+.button {
+    -fx-margin: 10px;
+    -fx-padding: 5px 5px;
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-border-radius: 25px;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-font-size: 20px;
+    -fx-background-radius: 25px;
+}
+
+.button:hover {
+    -fx-background-color: red;
+}
+
+.button-box {
+    -fx-padding: 10px;
+    -fx-spacing: 50px;
+    -fx-alignment: center;
+}
+
